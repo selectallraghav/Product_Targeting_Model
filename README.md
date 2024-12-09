@@ -18,8 +18,11 @@ This dataset contains information from a Portuguese banking institution's market
 **cons.conf.idx**	Consumer confidence index - monthly indicator
 **euribor3m**	Euribor 3 month rate - daily indicator
 **nr.employed**	Number of employees - quarterly indicator
-**probability_yes**	Predicted probability of subscribing to a term deposit (numeric)
-**y**	Has the client subscribed a term deposit? (binary)
+**probablity_of_buying**	Predicted probability of subscribing to a term deposit (numeric)
+**customer_response**	Has the client subscribed a term deposit? (binary)
+
+Further Explanation of the columns:
+**nr.employed** - The "Number of Employees" in a single row represents the total number of employed individuals at the time the data was recorded for that specific entry. This value is a quarterly indicator of the region's overall employment level during that period. It provides context about the labor market conditions at the time of the marketing campaign.
 
 **Usage**
 This dataset is ideal for analyzing and predicting customer behavior in marketing campaigns. Insights derived from this data can help marketing teams:
