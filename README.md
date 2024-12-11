@@ -12,7 +12,8 @@ This dataset contains information from a Portuguese banking institution's market
 | housing              | Has housing loan? (categorical - 'yes', 'no')                                   |
 | loan                 | Has personal loan? (categorical - 'yes', 'no')                                  |
 | contact              | Contact communication type (categorical - 'telephone', 'cellular')                               |
-| month                | Last contact month of year (categorical - 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec')                                    |
+| month                | Last contact month of year 
+(categorical - 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec')                                    |
 | day_of_week          | Last contact day of the week (categorical - 'mon', 'tue', 'wed', 'thu', 'fri')                                  |
 | campaign             | Number of contacts performed during this campaign and for this client       |
 | pdays                | Number of days that passed by after the client was last contacted           |
