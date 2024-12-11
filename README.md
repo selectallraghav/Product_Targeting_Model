@@ -40,7 +40,8 @@ This dataset contains information from a Portuguese banking institution's market
 
 This dataset is ideal for analyzing and predicting customer behavior in marketing campaigns. Insights derived from this data can help marketing teams:
 
-1. **Target potential customers**: Focus on customers with a predicted `probability_yes` value greater than 0.49 or those labeled as "yes" in the `y` column.
+1. **Target potential customers**: Focus on customers with a predicted `probability_of_buying` value greater than the average or those labeled as "yes" in the `customer_response` column.
+	
 2. **Optimize marketing efforts**: Develop more effective, data-driven strategies to improve campaign performance and ROI. By leveraging the included predictions, teams can streamline marketing activities, enhance personalization, and increase customer engagement.
 
 ## Citations
