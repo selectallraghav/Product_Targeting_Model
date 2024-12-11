@@ -8,24 +8,24 @@ This dataset contains information from a Portuguese banking institution's market
 
 | Column               | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
-| default              | Has credit in default? (categorical - yes, no or unknown)                                        |
-| housing              | Has housing loan? (categorical - yes, no)                                             |
-| loan                 | Has personal loan? (categorical - yes, no)                                           |
-| contact              | Contact communication type (categorical)                                    |
-| month                | Last contact month of year (categorical)                                    |
-| day_of_week          | Last contact day of the week (categorical)                                  |
+| default              | Has credit in default? (categorical - yes, no or unknown)                   |
+| housing              | Has housing loan? (categorical - 'yes', 'no')                                   |
+| loan                 | Has personal loan? (categorical - 'yes', 'no')                                  |
+| contact              | Contact communication type (categorical - 'telephone', 'cellular')                               |
+| month                | Last contact month of year (categorical - 'jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec')                                    |
+| day_of_week          | Last contact day of the week (categorical - 'mon', 'tue', 'wed', 'thu', 'fri')                                  |
 | campaign             | Number of contacts performed during this campaign and for this client       |
 | pdays                | Number of days that passed by after the client was last contacted           |
 | previous             | Number of contacts performed before this campaign and for this client       |
-| poutcome             | Outcome of the previous marketing campaign (categorical)                    |
+| poutcome             | Outcome of the previous marketing campaign (categorical - 'success', 'failure', 'nonexistent', 'other')                    |
 | emp.var.rate         | Employment variation rate - quarterly indicator                             |
 | cons.price.idx       | Consumer price index - monthly indicator                                    |
 | cons.conf.idx        | Consumer confidence index - monthly indicator                               |
 | euribor3m            | Euribor 3 month rate - daily indicator                                      |
 | nr.employed          | Number of employees - quarterly indicator                                   |
-| probability_of_buying| Predicted probability of subscribing to a term deposit (numeric)            |
-| customer_response    | Has the client subscribed to a term deposit? (binary)                       |
-| customer_id    | Unique identifier for each customer (numeric)                      |
+| probability_of_buying| Predicted probability of subscribing to a term deposit (numeric - 0-1.00)            |
+| customer_response    | Has the client subscribed to a term deposit? (binary - yes, no)                       |
+| customer_id          | Unique identifier for each customer (numeric - unique identifier)                                     |
 
 
 ### Further Explanation of the Columns
