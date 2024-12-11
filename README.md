@@ -19,7 +19,6 @@ This dataset contains information from a Portuguese banking institution's market
 **euribor3m**	Euribor 3 month rate - daily indicator
 **nr.employed**	Number of employees - quarterly indicator
 **probablity_of_buying**	Predicted probability of subscribing to a term deposit (numeric)
-
 **customer_response**	Has the client subscribed a term deposit? (binary)
 
 Further Explanation of the columns:
