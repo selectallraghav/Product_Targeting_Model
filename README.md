@@ -31,6 +31,10 @@ This dataset contains information from a Portuguese banking institution's market
 ### Further Explanation of the Columns
 
 - **nr.employed**: The "Number of Employees" in a single row represents the total number of employed individuals at the time the data was recorded for that specific entry. This value is a quarterly indicator of the region's overall employment level during that period. It provides context about the labor market conditions at the time of the marketing campaign.
+- **euribor3m**: The Euribor (Euro Interbank Offered Rate) 3-Month Rate is the average interest rate at which European banks lend to one another for a three-month period. It is a benchmark for short-term interest rates in the Eurozone and can influence borrowing costs for consumers and businesses.
+- **emp.var.rate**: Employment Variation Rate, is a quarterly indicator that measures the percentage change in employment levels compared to the previous quarter. It reflects the labor market's health and can influence consumer confidence and economic activity.
+- **cons.conf.idx**: Consumer Confidence Index is the index measures the degree of optimism that consumers feel about the overall state of the economy and their personal financial situation. A higher index indicates greater consumer confidence, which can lead to increased spending and investment.
+- **cons.price.idx**: Consumer Price Index is the index measures the average change over time in the prices paid by consumers for a basket of goods and services. It is a key indicator of inflation, reflecting the cost of living and purchasing power.
 
 ## Usage
 
