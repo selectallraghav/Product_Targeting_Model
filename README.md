@@ -25,6 +25,8 @@ This dataset contains information from a Portuguese banking institution's market
 | nr.employed          | Number of employees - quarterly indicator                                   |
 | probability_of_buying| Predicted probability of subscribing to a term deposit (numeric)            |
 | customer_response    | Has the client subscribed to a term deposit? (binary)                       |
+| customer_id    | Unique identifier for each customer (numeric)                      |
+
 
 ### Further Explanation of the Columns
 
