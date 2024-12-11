@@ -1,6 +1,6 @@
 # Product Marketing Campaign
 
-This dataset contains information from a Portuguese banking institution's marketing campaign. The goal was to predict the likelihood of customers subscribing to a term deposit. The dataset includes the original features along with two additional columns, `probability_yes` and `y`, which represent the predicted probability of each customer subscribing to a term deposit and whether a customer has subscribed to the term deposit respectively.
+This dataset contains information from a Portuguese banking institution's marketing campaign. The goal was to predict the likelihood of customers subscribing to a term deposit. The dataset includes the original features along with two additional columns, `probability_of_buying` and `customer_response`, which represent the predicted probability of each customer subscribing to a term deposit and whether a customer has subscribed to the term deposit respectively.
 
 ## Data Dictionary
 
@@ -8,9 +8,9 @@ This dataset contains information from a Portuguese banking institution's market
 
 | Column               | Description                                                                 |
 |----------------------|-----------------------------------------------------------------------------|
-| default              | Has credit in default? (categorical)                                        |
-| housing              | Has housing loan? (categorical)                                             |
-| loan                 | Has personal loan? (categorical)                                            |
+| default              | Has credit in default? (categorical - yes, no or unknown)                                        |
+| housing              | Has housing loan? (categorical - yes, no)                                             |
+| loan                 | Has personal loan? (categorical - yes, no)                                           |
 | contact              | Contact communication type (categorical)                                    |
 | month                | Last contact month of year (categorical)                                    |
 | day_of_week          | Last contact day of the week (categorical)                                  |
