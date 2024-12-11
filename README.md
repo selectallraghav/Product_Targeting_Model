@@ -3,22 +3,39 @@ This dataset contains information from a Portuguese banking institution's market
 
 **Data Dictionary**
 **Column**	**Description**
+
 **default**	Has credit in default? (categorical)
+
 **housing**	Has housing loan? (categorical)
+
 **loan**	Has personal loan? (categorical)
+
 **contact** Contact communication type (categorical)
+
 **month**	Last contact month of year (categorical)
+
 **day_of_week**	Last contact day of the week (categorical)
+
 **campaign**	Number of contacts performed during this campaign and for this client
+
 **pdays**	Number of days that passed by after the client was last contacted
+
 **previous**	Number of contacts performed before this campaign and for this client
+
 **poutcome**	Outcome of the previous marketing campaign (categorical)
+
 **emp.var.rate** Employment variation rate - quarterly indicator
+
 **cons.price.idx**	Consumer price index - monthly indicator
+
 **cons.conf.idx**	Consumer confidence index - monthly indicator
+
 **euribor3m**	Euribor 3 month rate - daily indicator
+
 **nr.employed**	Number of employees - quarterly indicator
+
 **probablity_of_buying**	Predicted probability of subscribing to a term deposit (numeric)
+
 **customer_response**	Has the client subscribed a term deposit? (binary)
 
 Further Explanation of the columns:
